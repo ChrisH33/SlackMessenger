@@ -136,8 +136,8 @@ _strMessage=_arrStates.GetAt(_intState-1);
 // {{{ 47 1 0 "9be7a947_d572_4f57_9e33ade1afb0884f" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
 _strMethod = GetMethodName(0);
 // }} ""
-// {{{ 48 1 0 "c86c1b59_68fb_42b9_934db5457dacea99" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
-_strSerialNumber = GetSerialNumber(ML_STAR, 0);
+// {{{ 48 1 0 "35eb7387_318a_42a7_a9b98eac2f7b9ff6" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+_strSerialNumber = GetSN(ML_STAR, 0);
 // }} ""
 // {{{ 49 1 0 "724acf4d_5e50_4d9c_b3607084a465ac9c" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
 _strSlackMessagePath = StrConcat4(_strSlackUploadDirectory, Translate("\\"), _strSerialNumber, Translate("_Update.txt"));
@@ -285,8 +285,8 @@ _strSlackUploadDirectory = _UploadCheck(_strSlackDirectory);
 // {{{ 8 1 0 "b2286744_4481_4843_8ae8c903291ab992" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
 EmailUtilLib::SetSMTPServerHostName(Translate("mail.internal.sanger.ac.uk"));
 // }} ""
-// {{{ 9 1 0 "54fa3e91_d7a6_47c9_a512ec946a8a1943" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
-_strSN = GetSerialNumber(ML_STAR, 0);
+// {{{ 9 1 0 "7dd52aef_c4cd_4053_846fd73a33581a6d" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+_strSN = GetSN(ML_STAR, 0);
 // }} ""
 // {{{ 10 1 0 "c666c6a4_d2c4_45a9_bb8acc8fedbe5850" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
 _strEmailSender = StrConcat2(_strSN, Translate("@Hamilton.ch"));
@@ -382,4 +382,4 @@ return (Translate(""));
 // {{{ 2 "LibraryNamespace" "End"
 } // library namespace
 // }} ""
-// $$author=ch33$$valid=0$$time=2024-11-26 09:40$$checksum=471c2b93$$length=083$$
+// $$author=Hamilton$$valid=0$$time=2024-11-27 18:01$$checksum=d070d5be$$length=087$$

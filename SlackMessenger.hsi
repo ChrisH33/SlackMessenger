@@ -18,7 +18,7 @@ namespace SLACKMESSENGER {
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
 // {{{ 2 "SubmethodForwardDeclaration" ""
 function Start_Check( device & ML_STAR, variable _strSlackDirectory ) variable ;
-function Update( device & ML_STAR, variable _intState, variable _strStart_Check, variable _strSlackDirectory ) void ;
+function Update( device & ML_STAR, variable _strSlackDirectory, variable _strStart_Check, variable _intState ) void ;
 private function _Abstract(  ) void ;
 private function _UploadCheck( variable _strPath ) variable ;
 // }} ""
@@ -43,7 +43,7 @@ function _ExitLibrary() {
 // }} ""
 }
 // {{{ 5 "Update" "Begin"
-function Update( device & ML_STAR, variable _intState, variable _strStart_Check, variable _strSlackDirectory ) void {
+function Update( device & ML_STAR, variable _strSlackDirectory, variable _strStart_Check, variable _intState ) void {
 // }} ""
 private variable _strSlackMessagePath;
 private file _hnd;
@@ -382,4 +382,4 @@ return (Translate(""));
 // {{{ 2 "LibraryNamespace" "End"
 } // library namespace
 // }} ""
-// $$author=Hamilton$$valid=0$$time=2024-11-27 18:01$$checksum=d070d5be$$length=087$$
+// $$author=ch33$$valid=0$$time=2024-12-03 18:03$$checksum=9c64c640$$length=083$$

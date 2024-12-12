@@ -15,4 +15,4 @@ function Update( device & ML_STAR, variable _strSlackDirectory, variable _strSta
 #ifdef HSL_RUNTIME
 #include __filename__ ".hsi"
 #endif
-// $$author=ch33$$valid=0$$time=2024-12-03 18:03$$checksum=2c8cba9f$$length=081$$
+// $$author=ch33$$valid=0$$time=2024-12-12 16:14$$checksum=5041a459$$length=081$$

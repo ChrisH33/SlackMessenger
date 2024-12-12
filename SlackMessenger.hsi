@@ -1,7 +1,7 @@
 // {{{ 2 "IncludeGuard" "PragmaOnce"
 #pragma once
 // }} ""
-#include "WSI\\HSLGetSerialNumber_WSI.hsl"
+#include "WSI\\HSLGetSerialNumber_WSI\\HSLGetSerialNumber_WSI.hsl"
 #include "HSLFileDirectoryLib.hsl"
 #include "HSLStrLib.hsl"
 #include "HSLTimLib.hsl"
@@ -382,4 +382,4 @@ return (Translate(""));
 // {{{ 2 "LibraryNamespace" "End"
 } // library namespace
 // }} ""
-// $$author=ch33$$valid=0$$time=2024-12-03 18:03$$checksum=9c64c640$$length=083$$
+// $$author=ch33$$valid=0$$time=2024-12-12 16:14$$checksum=28d23f16$$length=083$$

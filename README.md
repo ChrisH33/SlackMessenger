@@ -12,7 +12,7 @@ Before using the library, ensure you have the following:
 	Network Access: A stable connection to the internal network drive dna_pipelines.
 	Dependencies:
         HslFilDirectoryLib.hsl (installer included)
-        HSLGetSerialNumber_WSI.hsl (Repository here)
+        HSLGetSerialNumber_WSI.hsl (https://github.com/ChrisH33/HSLGetSerialNumber_WSI)
 
 ### Installation
 
